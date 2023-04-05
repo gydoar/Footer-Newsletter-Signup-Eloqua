@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            max-width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        header img{
+            max-width: 100%;
+        }
+        footer > div{
+            color:  #464141;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            
+            padding: 50px 0;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        footer{
+            background: #F4F4F4;
+            font-family: Tahoma, Helvetica;
+            
+        }
+        footer .menu img{
+            max-width: 120px;
+        }
+        footer .menu ul, footer .copyright ul{
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding: 0;
+        }
+        footer .copyright ul{
+            justify-content: end;
+        }
+        footer .menu ul li:first-child a{
+            margin-left: 0px;
+        }
+        footer .menu ul li, footer .copyright ul li{
+            list-style: none;
+        }
+        footer .menu ul li a{
+            color:  #464141;
+             margin: 0px 10px;
+             text-decoration: none;
+        }
+        footer .menu ul li:first-child, footer .menu ul li:nth-child(2){
+            border-right: 1px solid #464141;
+        }
+         footer .copyright{
+            text-align: right;
+            
+         }
+         footer .copyright p{
+            margin: 0;
+            
+         }
+         footer .copyright img{
+            max-width: 70%;
+            width: 70%;
+         }
+
+
+        
+        @media (max-width: 600px) { 
+            header img{
+                max-width: none;
+            }
+            footer .menu{
+                padding-bottom: 20px;
+            }
+            footer > div{
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            footer .copyright ul{
+                justify-content: center;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <a target="_blank" href="https://www.outsetmedical.com/">
+            <img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7Be1b53152-8b9d-48dc-ac2f-ef4c1ae60a3c%7D_Banner_header_signup.png" alt="Banner">
+        </a>
+    </header>
+
+    <footer>
+        <div>
+            <div class="menu">
+                <a target="_blank" href="https://www.outsetmedical.com/"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7Bd0548e14-7192-4fc7-b6c0-2939db26100c%7D_OutsetLogo2.png" alt=""></a>
+                <ul>
+                    <li><a target="_blank" href="https://www.outsetmedical.com/">Home</a></li>
+                    <li><a target="_blank" href="https://www.outsetmedical.com/contact-us/">Contact Us</a></li>
+                    <li><a target="_blank" href="https://www.outsetmedical.com/privacy-policy/">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="copyright">
+                <ul>
+                    <li><a target="_blank" href="https://twitter.com/outsetmedical/"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7Bb81742a0-f2a4-45f2-801d-68243f32760b%7D_twitter-icon.png" alt="Twitter"></a></li>
+
+                    <li><a target="_blank" href="https://www.linkedin.com/company/outset-medical/"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7B5182c129-875f-42c8-b818-ba41503fc1ab%7D_linkedin.png" alt="Linkedin"></a></li>
+
+                    <li><a target="_blank" href="https://www.facebook.com/OutsetMedical/"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7Becc1987d-7027-4c5a-af41-4454a1a7e539%7D_facebook.png" alt="Facebook"></a></li>
+
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCe-zbVd7DjboQnewVt2Bwzw?view_as=subscriber"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7B622240cd-b3a5-442e-86d9-7bc2b4d6e200%7D_youtube.png" alt="Youtube"></a></li>
+
+                    <li><a target="_blank" href="https://www.instagram.com/outsetmedical/"><img src="https://images.marketing.outsetmedical.com/EloquaImages/clients/OutsetMedicalInc/%7B03d8037a-e7fd-4c2e-85b8-e7ca0ff6aeb1%7D_instagram.png" alt="Instagram"></a></li>
+                </ul>
+                <p>© 2023 Outset Medical, Inc. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
